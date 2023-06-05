@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.first-part h1
+{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.first-part p
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.container 
+{
+    margin-top: 20px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    
+}
+
+.form
+{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form input 
+{
+    border: 1px solid #d1d1d1;
+    width: 220px;
+    height: 25px;
+}
+.form label
+{
+    
+}
+
+.checkbox input
+{
+    border: 1px solid #d1d1d1;
+    width: 15px;
+    height: 15px;
+    /* margin-right: 185px; */
+    margin-top: 10px; 
+}
+
+.form .checkbox p
+{
+    margin-top: 10px; 
+    margin-right: 100%;
+}
+.form .checkbox  {
+    
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 7px;
+     margin-right: 35px;
+}
+.form .checkbox input {
+    width: auto;
+    cursor: pointer; 
+}
+.cancel-login .cancel-button
+{
+    background-color: aqua;
+    border: 1px solid #fff;
+    width: 110px;
+    height: 30px;
+    color: #fff;
+    cursor: pointer; 
+}
+.cancel-login .login-button
+{
+    background-color: red;
+    border: 1px solid #fff;
+    width: 110px;
+    height: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.content 
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+     
+}
